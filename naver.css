@@ -21,6 +21,12 @@
     justify-content: center;
     justify-content: space-evenly;
 }
+.advertisement{
+    width:70%;
+}
+.advertisement #c_adv_img{
+    width:100%;
+}
 .container{
     display:flex;  
     justify-content:space-between;    
@@ -54,21 +60,32 @@
     list-style-type: none;    
     padding-left:10px;
 }
+#header_view #asian_cup_img{
+    width: 150px;
+    height: 50px;
+}
 #header_subview{
     display: flex;
     flex-direction: row;
+    height:35px;
     padding:10px;
     margin-left:10px;
     margin-right:10px;
 }
-#header_subview #sub_news{
-    width: 60%;
+#header_subview #subview_list_box,
+#header_subview #news_home_btn,
+#header_subview #sub_news_img{
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
-#paging_view {
-    position: relative;
+#media_view_img{
+    width:100%;
+}
+#paging_view {    
     display: flex;
     flex-direction: row;    
+    justify-content: space-between;
 }
 #paging_view #page_lt_rt {
     display:flex;
@@ -77,14 +94,15 @@
 }
 #paging_view #btn {
     display: flex;
-    flex-direction: row;    
-    position: absolute;
-    right: 0;    
+    flex-direction: row;
 }
-#btn #btn_list ,
-#btn #btn_thumb{
+#btn #btn_list_img ,
+#btn #btn_thumb_img{
+    width: 40px;
+    height: 40px;   
     margin-left:10px;
 }
+
 .footer{
     display:flex;
     flex-direction:column;
