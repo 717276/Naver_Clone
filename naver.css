@@ -1,28 +1,57 @@
 .header{
     display:flex;
-    flex-direction:column;    
+    flex-direction:column;  
+    background-color: white;
+    height: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .search_box{
     display:flex;
     flex-direction:column;
+    height: 150px;
 }
 .search_box #left_element,
 .search_box #right_element{
     display:flex;
     flex-direction:row;    
 }
-.search_box #left_element #shortcuts,
-.search_box #right_element #naver_talk {
+.search_box #left_element #shortcuts{
     padding-right:20px;
+}
+.search_box #search_form #naver_icon {
+    padding-top: 1px;
+    padding-left: 1px;
+} 
+.search_box #search_form #keyboard_img {
+    padding-top: 3px;
+    padding-right: 1px;
+}
+.search_box #search_form #reading_glass {
+    padding-top: 5px;
+    padding-right: 1px;
 }
 #search_form{
     display:flex;
     flex-direction:row;
     justify-content: center;
     justify-content: space-evenly;
+    border:2px solid green;
+    border-radius: 20px;
+    margin-left:30%;
+    width:40%;
+    height: 50px;
+}
+#search_form #input_form #input{
+    border-width: 0px;
+    outline:white;
+    margin-top:5px;
+    height:80%;
+    width: 200px;
+    font-size: 20px;
 }
 .advertisement{
-    width:70%;
+    width:100%;
 }
 .advertisement #c_adv_img{
     width:100%;
@@ -30,7 +59,8 @@
 .container{
     display:flex;  
     justify-content:space-between;    
-    margin-left:10px;
+    margin-left:15%;
+    margin-right:15%;
 }
 .container .content {
     width: 70%;
@@ -38,10 +68,13 @@
 .container .aside {
     width: 30%;
     margin-left:20px;
+    
 }
 .container .content .top .news{
     display:flex;
     flex-direction:column;
+    border:1px solid gray;
+    border-radius: 10px;
 }
 
 .container .content .top .news #header_view{
@@ -71,6 +104,8 @@
     padding:10px;
     margin-left:10px;
     margin-right:10px;
+    border-radius: 10px;
+    background-color: #f5f7f8;
 }
 #header_subview #subview_list_box,
 #header_subview #news_home_btn,
@@ -102,7 +137,38 @@
     height: 40px;   
     margin-left:10px;
 }
+.login{
+    margin: 10px;
+    padding: 20px;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+.login #login_banner {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.login #login_banner #login_banner_img{
+    width: 105%;
+}
+.login #login_comment{
+    display:flex;
+    justify-content: center;
+}
+.login_main {
+    display:flex;
+    margin-top: 10px;;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
 
+.login_adv #login_adv_size{
+    object-fit: cover;
+}
+.login_adv #login_adv_img{
+    padding: 10px;
+    width:100%;
+}
 .footer{
     display:flex;
     flex-direction:column;
