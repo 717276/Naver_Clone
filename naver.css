@@ -208,3 +208,113 @@
     flex-direction:column;
     align-items:center;
 }
+/* 달력 위젯 컨테이너 */
+.widget_calendar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 달력 컨테이너 */
+.calendar {
+    width: 300px;
+    padding: 20px;
+}
+/* 요일 헤더 */
+.calendar .weekdays {
+    display: flex;
+    justify-content: space-between;
+}
+/* 달력 요일 */
+.calendar .weekdays .day {
+    width: calc(100% / 7);
+    text-align: center;
+    font-weight: bold;
+}
+/* 달력 날짜 */
+.calendar .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+  /* 날짜 셀 */
+.calendar .days .day {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 5px 0;
+}
+  /* 이전 달 날짜 스타일 */
+.calendar .days .day.before-month {
+    color: rgb(214, 101, 101);
+}
+/* 다음 달 날짜 스타일 */
+.calendar .days .day.next-month {
+    color: rgb(97, 93, 93);
+}
+.calendar .days .weekend {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 5px 0;
+    color: red;
+}
+.calendar .weekdays .weekend {
+    width: calc(100% / 7);
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+/* 메모 위젯 컨테이너 */
+.widget_memo {
+    width: 340px;
+    height: 170px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* 메모 헤더 */
+.memo_title {
+    padding: 10px;
+    background-color: #17B75E;
+    color: white;
+    font-weight: bold;
+}
+/* 메모 내용 */
+.memo_content {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+/* 영어사전 위젯 컨테이너*/
+.widget_dictionary {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.widget_papago {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/**/
+.widget_vibe {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.vibe_img {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+.widget_vibe .img1 .img2 .img3 {
+    display: flex;
+    flex-direction: column;
+}
