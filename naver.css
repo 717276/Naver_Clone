@@ -1,29 +1,29 @@
-.header{
-    display:flex;
-    flex-direction:column;  
+.header {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     height: 30%;
-    margin-top:25px;
+    margin-top: 25px;
     margin-left: 15%;
     margin-right: 15%;
 }
-.search_box{
-    display:flex;
-    flex-direction:column;
+.search_box {
+    display: flex;
+    flex-direction: column;
     height: 150px;
 }
 .search_box #left_element,
-.search_box #right_element{
-    display:flex;
-    flex-direction:row;    
+.search_box #right_element {
+    display: flex;
+    flex-direction: row;
 }
-.search_box #left_element #shortcuts{
-    padding-right:20px;
+.search_box #left_element #shortcuts {
+    padding-right: 20px;
 }
 .search_box #search_form #naver_icon {
     padding-top: 1px;
     padding-left: 1px;
-} 
+}
 .search_box #search_form #keyboard_img {
     padding-top: 3px;
     padding-right: 1px;
@@ -32,36 +32,35 @@
     padding-top: 5px;
     padding-right: 1px;
 }
-#search_form{
-    display:flex;
+#search_form {
+    display: flex;
     position: relative;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-evenly;
-    border:2px solid green;
+    border: 2px solid green;
     border-radius: 20px;
-    margin-left:30%;
-    width:40%;
+    margin-left: 30%;
+    width: 40%;
     height: 50px;
 }
-#search_form #input_form{
+#search_form #input_form {
     width: 100%;
 }
-#search_form #input_form #input{
+#search_form #input_form #input {
     border-width: 0px;
-    outline:white;
-    margin-top:5px;
-    height:80%;
+    outline: white;
+    margin-top: 5px;
+    height: 80%;
     width: 70%;
-    margin-left:80px;
+    margin-left: 80px;
     font-size: 20px;
 }
-#search_form #naver_icon{
-    position: absolute;    
+#search_form #naver_icon {
+    position: absolute;
     top: 1px;
     left: 15px;
-    
 }
-#search_form #keyboard_img{
+#search_form #keyboard_img {
     position: absolute;
     top: 1px;
     right: 30px;
@@ -72,104 +71,103 @@
     right: 15px;
 }
 
-.advertisement{
-    width:70%;
+.advertisement {
+    width: 70%;
     margin-left: 15%;
     margin-right: 15%;
 }
-.advertisement #c_adv_img{
+.advertisement #c_adv_img {
     height: 150px;
-    width:100%;
+    width: 100%;
 }
-.container{
-    display:flex;  
-    justify-content:space-between;    
-    margin-left:15%;
-    margin-right:15%;
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .container .content {
     width: 70%;
 }
 .container .aside {
     width: 30%;
-    margin-left:20px;
-    
+    margin-left: 20px;
 }
-.container .content .top .news{
-    display:flex;
-    flex-direction:column;
-    border:1px solid gray;
+.container .content .top .news {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
-.container .content .top .news #header_view{
-    display:flex;    
+.container .content .top .news #header_view {
+    display: flex;
     justify-content: space-between;
-    padding:10px;
+    padding: 10px;
     /* align-items: center; */
 }
 #header_view #list ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding:0px;
+    padding: 0px;
 }
 #header_view #list li {
-    list-style-type: none;    
-    padding-left:10px;
+    list-style-type: none;
+    padding-left: 10px;
 }
-#header_view #asian_cup_img{
+#header_view #asian_cup_img {
     width: 150px;
     height: 50px;
 }
-#header_subview{
+#header_subview {
     display: flex;
     flex-direction: row;
-    height:35px;
-    padding:10px;
-    margin-left:10px;
-    margin-right:10px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
     background-color: #f5f7f8;
 }
 #header_subview #subview_list_box,
 #header_subview #news_home_btn,
-#header_subview #sub_news_img{
+#header_subview #sub_news_img {
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
-#media_view_img{
-    width:100%;
+#media_view_img {
+    width: 100%;
 }
-#paging_view {    
+#paging_view {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: space-between;
 }
 #paging_view #page_lt_rt {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    padding-left:40%;
+    padding-left: 40%;
 }
 #paging_view #page {
-    font-size:15px;
+    font-size: 15px;
     font-weight: bold;
 }
 #paging_view #btn {
     display: flex;
     flex-direction: row;
 }
-#btn #btn_list_img ,
-#btn #btn_thumb_img{
+#btn #btn_list_img,
+#btn #btn_thumb_img {
     width: 40px;
-    height: 40px;   
-    margin-left:10px;
+    height: 40px;
+    margin-left: 10px;
 }
-.login{
+.login {
     margin: 10px;
     padding: 20px;
-    border:1px solid gray;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 .login #login_banner {
@@ -177,36 +175,37 @@
     justify-content: center;
     object-fit: cover;
 }
-.login #login_banner #login_banner_img{
+.login #login_banner #login_banner_img {
     width: 105%;
 }
-.login #login_comment{
-    display:flex;
+.login #login_comment {
+    display: flex;
     justify-content: center;
-    font-size:15px;
+    font-size: 15px;
 }
 .login_main {
-    display:flex;
-    margin-top: 10px;;
+    display: flex;
+    margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly;
     font-size: 13px;
 }
 
-.login_adv{
+.login_adv {
     display: inline-block;
     width: auto;
     height: auto;
-    padding:10px;
+    padding: 10px;
 }
-.login_adv #login_adv_img{
+.login_adv #login_adv_img {
     width: 100%;
     height: 100%;
 }
-.footer{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+
+.footer_top {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 /* 달력 위젯 컨테이너 */
 .widget_calendar {
@@ -238,13 +237,13 @@
     display: flex;
     flex-wrap: wrap;
 }
-  /* 날짜 셀 */
+/* 날짜 셀 */
 .calendar .days .day {
     width: calc(100% / 7);
     text-align: center;
     padding: 5px 0;
 }
-  /* 이전 달 날짜 스타일 */
+/* 이전 달 날짜 스타일 */
 .calendar .days .day.before-month {
     color: rgb(214, 101, 101);
 }
@@ -275,7 +274,7 @@
 /* 메모 헤더 */
 .memo_title {
     padding: 10px;
-    background-color: #17B75E;
+    background-color: #17b75e;
     color: white;
     font-weight: bold;
 }
@@ -317,4 +316,29 @@
 .widget_vibe .img1 .img2 .img3 {
     display: flex;
     flex-direction: column;
+}
+.ad1 {
+    display: flex;
+}
+.ad1 img {
+    margin-top: 10px;
+    margin-right: 30px;
+    height: 130px;
+    width: 195px;
+}
+.ad1:hover img {
+    transform: scale(1.05);
+}
+.broswer_box {
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.left-box {
+    float: left;
+}
+.right-box {
+    float: right;
 }
