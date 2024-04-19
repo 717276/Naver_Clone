@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -393,6 +394,354 @@
               <div class="memo_content">네이버의 새로운 소셜홈</div>
               <div class="memo_content">네이버me 따라하기</div>
               <div class="memo_content">네이버톡으로 메모를 이용</div>
+=======
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naver</title>
+</head>
+<link rel="stylesheet" href="naver.css" />
+
+<body>
+    <div class="header">
+        <div class="search_box">
+            <div style="display: flex; flex-direction: row; justify-content: space-between">
+                <div id="left_element">
+                    <div class="element" id="shortcuts">
+                        <a href="#">
+                            <img src="https://github.com/717276/Naver_Front/raw/main/img/header/%EB%8D%94%EB%B3%B4%EA%B8%B0.png"
+                                alt="" />
+                        </a>
+                    </div>
+                    <div class="element" id="naver_pay">
+                        <a href="#">
+                            <img src="https://github.com/717276/Naver_Front/raw/main/img/header/pay.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div id="right_element">
+                    <div class="element" id="naver_talk">
+                        <a href="#">
+                            <img src="https://github.com/717276/Naver_Front/raw/main/img/header/naver_talk.png"
+                                alt="" />
+                        </a>
+                    </div>
+                    <div class="element" id="alarm" style="margin-top: 5px">
+                        <a href="#">
+                            <img src="https://github.com/717276/Naver_Front/raw/main/img/header/alarm.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <form id="search_form" action="https://search.naver.com/search.naver" method="get">
+                <img id="naver_icon" src="https://github.com/717276/Naver_Front/raw/main/img/header/naver.png" alt="" />
+                <input id="input_form" name="query" type="text" placeholder="검색어 입력">
+                
+                <img id="keyboard_img" src="https://github.com/717276/Naver_Front/raw/main/img/header/keyboard_icon.png"
+                alt="" />
+                
+                <img id="reading_glass"
+                src="https://github.com/717276/Naver_Front/raw/main/img/header/reading_glass.png" alt="" />
+                <button id="submit_btn" type="submit" style="display:none;">검색</button>
+            </form>
+        </div>
+        <div class="icons">icons</div>
+    </div>
+    <div class="advertisement">
+        <img id="c_adv_img" src="https://github.com/717276/Naver_Front/raw/main/img/news_img/container_adv.png"
+            alt="container_" />
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="top">
+                <div class="news">
+                    <div id="header_view">
+                        <div id="list">
+                            <ul>
+                                <li>
+                                    <a href="">뉴스 스탠드</a>
+                                </li>
+                                <li>
+                                    <a href="">언론사 편집</a>
+                                </li>
+                                <li>
+                                    <a href="">엔터</a>
+                                </li>
+                                <li>
+                                    <a href="">스포츠</a>
+                                </li>
+                                <li>
+                                    <a href="">경제</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="link">
+                            <a href="" alt="asian_cup">
+                                <img id="asian_cup_img"
+                                    src="https://github.com/717276/Naver_Front/raw/main/img/news_img/asian_cup.png"
+                                    alt="asian_cup_img" />
+                            </a>
+                        </div>
+                    </div>
+                    <div id="header_subview">
+                        <div id="list_box" style="width: 12%">
+                            <select name="subview_list_box" style="width: 100%; height: 100%">
+                                <option disabled selected>분야별 뉴스</option>
+                            </select>
+                        </div>
+                        <div id="sub_news" style="width: 80%">
+                            <img id="sub_news_img"
+                                src="https://github.com/717276/Naver_Front/raw/main/img/news_img/sub_news.png"
+                                alt="sub_news_img" />
+                        </div>
+                        <div id="news_home_btn" style="width: 10%">
+                            <button style="width: 100%; height: 100%">뉴스 홈</button>
+                        </div>
+                    </div>
+                    <div id="media_view">
+                        <img id="media_view_img"
+                            src="https://github.com/717276/Naver_Front/raw/main/img/news_img/media_view.png"
+                            alt="media_view" />
+                    </div>
+                    <div id="paging_view">
+                        <div id="page_lt_rt">
+                            <div id="page_lt">
+                                <a href="" style="padding-right: 10px">&lt;</a>
+                            </div>
+                            <div id="page"><span style="color: #3a67ea">언론사</span> 더보기</div>
+                            <a href="" style="padding-left: 10px">&gt;</a>
+                        </div>
+                        <div id="btn">
+                            <a href="" alt="btn_list">
+                                <img id="btn_list_img"
+                                    src="https://github.com/717276/Naver_Front/raw/main/img/news_img/btn_list.png"
+                                    alt="btn_list_img" />
+                            </a>
+                            <a href="" alt="btn_thumb">
+                                <img id="btn_thumb_img"
+                                    src="https://github.com/717276/Naver_Front/raw/main/img/news_img/btn_thumb.png"
+                                    alt="btn_thumb_img" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping">shopping</div>
+            </div>
+            <div class="bottom">
+                <div class="subscribe">subscribe</div>
+                <div class="clip">clip</div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="top">
+                <div class="login">
+                    <p id="login_comment">네이버를 더 안전하고 편리하게 이용하세요</p>
+                    <div id="login_banner">
+                        <a href="naver_login.html">
+                            <img id="login_banner_img"
+                                src="https://github.com/717276/Naver_Front/raw/main/img/aside_img/login_banner.png"
+                                alt="login_banner.png" />
+                        </a>
+                    </div>
+                    <div class="login_main">
+                        <a id="find_id" href="">아이디 찾기</a>
+                        <a id="find_pw" href="">비밀번호 찾기</a>
+                        <a id="join" href="">회원가입</a>
+                    </div>
+                </div>
+                <div class="login_adv">
+                    <img id="login_adv_img"
+                        src="https://github.com/717276/Naver_Front/raw/main/img/aside_img/login_adv.png" alt="" />
+                </div>
+                <div class="weather">weather</div>
+                <div class="stock">stock</div>
+            </div>
+            <div class="bottom">
+                <div class="widget">
+                    <div class="widget_calendar">
+                        <div class="today">
+                            <p><span style="font-weight: bold">캘린더</span></p>
+                            <p><span style="font-weight: bold; font-size: 40px">4.17&nbsp;</span>수</p>
+                            <p><span style="font-size: 12px">일정이 없습니다.</span></p>
+                        </div>
+                        <div class="calendar">
+                            <div class="weekdays">
+                                <div class="weekend">일</div>
+                                <div class="day">월</div>
+                                <div class="day">화</div>
+                                <div class="day">수</div>
+                                <div class="day">목</div>
+                                <div class="day">금</div>
+                                <div class="day">토</div>
+                            </div>
+                            <div class="days">
+                                <div class="day before-month">31</div>
+                                <div class="day">1</div>
+                                <div class="day">2</div>
+                                <div class="day">3</div>
+                                <div class="day">4</div>
+                                <div class="day">5</div>
+                                <div class="day">6</div>
+                                <div class="weekend">7</div>
+                                <div class="day">8</div>
+                                <div class="day">9</div>
+                                <div class="weekend">10</div>
+                                <div class="day">11</div>
+                                <div class="day">12</div>
+                                <div class="day">13</div>
+                                <div class="weekend">14</div>
+                                <div class="day">15</div>
+                                <div class="day">16</div>
+                                <div class="day">17</div>
+                                <div class="day">18</div>
+                                <div class="day">19</div>
+                                <div class="day">20</div>
+                                <div class="weekend">21</div>
+                                <div class="day">22</div>
+                                <div class="day">23</div>
+                                <div class="day">24</div>
+                                <div class="day">25</div>
+                                <div class="day">26</div>
+                                <div class="day">27</div>
+                                <div class="weekend">28</div>
+                                <div class="day">29</div>
+                                <div class="day">30</div>
+                                <div class="day next-month">1</div>
+                                <div class="day next-month">2</div>
+                                <div class="day next-month">3</div>
+                                <div class="day next-month">4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="widget_memo">
+                        <div class="memo_title">메모</div>
+                        <div class="memo_content">네이버의 새로운 소셜홈</div>
+                        <div class="memo_content">네이버me 따라하기</div>
+                        <div class="memo_content">네이버톡으로 메모를 이용</div>
+                    </div>
+                    <br />
+                    <div class="widget_dictionary">
+                        <div class="widget_papago">
+                            <img src="./papago.PNG" style="width: 100px" />
+                        </div>
+                        <div class="widget_papago">
+                            <p>
+                                <span style="font-weight: bold">영어사전<br/>
+                                    Get out of your comfort zone</span>
+                            </p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="widget_vibe">
+                        <span style="font-weight: bold; font-size: 16px"><i class="fa-solid fa-signal"></i> VIBE
+                            행복에너지UP!</span>&nbsp;&nbsp;&nbsp;<span style="color: gray; font-size: 13px">다른 추천 보기<i
+                                class="fa-solid fa-rotate-right"></i></span><br /><br />
+                        <div class="vibe_img">
+                            <div class="img1">
+                                <img src="https://images.unsplash.com/photo-1713195959107-54c1db587872?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
+                                    style="width: 80px; height: 130px" />
+                                <span>여행의 시작과 끝이 공존하는...</span>
+                            </div>
+                            <div class="img2">
+                                <img src="https://images.unsplash.com/photo-1712841607084-3c8dabe07818?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Mnx8fGVufDB8fHx8fA%3D%3D"
+                                    style="width: 80px; height: 130px" />
+                                <span>여행의 시작과 끝이 공존하는...</span>
+                            </div>
+                            <div class="img3">
+                                <img src="https://plus.unsplash.com/premium_photo-1683318596886-3ba591e65918?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDd8fHxlbnwwfHx8fHw%3D"
+                                    style="width: 80px; height: 130px" />
+                                <span>여행의 시작과 끝이 공존하는...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="footer" style="flex-wrap: wrap; background-color: rgb(245, 246, 247)">
+        <div class="footer_top">
+            <a class="ad1" href="https://store.meritzfire.com/pet/product.do#!/contractPopup">
+                <img src="source/mertiz.jpg" alt="" />
+                <p>
+                    메리츠 화재 <br /><br />
+                    <b>펫보험 페퍼민트 다이렉트 <br />자주아픈 우리집 막내를 위해 <br />펫퍼민트 보험료
+                        확인해요!</b>
+                </p>
+            </a>
+            <a class="ad1" href="https://store.meritzfire.com/pet/product.do#!/contractPopup">
+                <img src="source/mertiz.jpg" alt="" />
+                <p>
+                    메리츠 화재 <br /><br />
+                    <b>펫보험 페퍼민트 다이렉트 <br />자주아픈 우리집 막내를 위해 <br />펫퍼민트 보험료
+                        확인해요!</b>
+                </p>
+            </a>
+            <a class="ad1" href="https://store.meritzfire.com/pet/product.do#!/contractPopup">
+                <img src="source/mertiz.jpg" alt="" />
+                <p>
+                    메리츠 화재 <br /><br />
+                    <b>펫보험 페퍼민트 다이렉트 <br />자주아픈 우리집 막내를 위해 <br />펫퍼민트 보험료
+                        확인해요!</b>
+                </p>
+            </a>
+        </div>
+        <hr style="margin-left: 100px; margin-right: 100px" />
+
+        <div class="footer_center">
+            <br />
+            <a style="margin-left: 105px; float: left" href="https://www.naver.com/NOTICE">공지사항</a>
+            <a style="float: right; margin-right: 110px" href="https://www.naver.com/more.html">서비스 전체보기</a>
+
+            <br /><br />
+            <hr style="margin-left: 100px; margin-right: 100px" />
+            <br />
+            <div style="float: left">
+                <b style="margin-left: 105px">Partners </b>
+                <a href="https://www.navercorp.com/esg/projectFlower"> 프로젝트 꽃 </a> |
+                <a href="https://business.naver.com/">네이버 비즈니스</a> |
+                <a href="https://bizschool.naver.com/">네이버 비즈니스 스쿨</a> |
+                <a href="https://www.navercorp.com/service/serviceAD">네이버 광고</a> |
+                <a href="https://sell.storefarm.naver.com/#/home/about">스토어 개설</a> |
+                <a href="https://smartplace.naver.com/">지역업체 등록</a> |
+                <a href="https://expert.naver.com/expert/introduction?tab=guide#join">엑스퍼트 등록</a>
+                <br />
+                <br />
+
+                <b style="margin-left: 105px">Developers</b>
+                <a href="https://developers.naver.com/"> 네이버 개발자 센터 </a> |
+                <a href="https://developers.naver.com/docs/common/openapiguide/#/apilist.md"> 오픈 API </a> |
+                <a href="https://naver.github.io/"> 오픈 소스 </a> |
+                <a href="https://d2.naver.com/"> 네이버 D2 </a> | <a href="http://d2startup.com/">네이버 D2SF </a> |
+                <a href="https://www.naverlabs.com/">네이버 랩스 </a> |
+            </div>
+            <div class="right-box" style="display: flex; flex-direction: row; margin-right: 100px">
+                <div class="broswer_box">
+                    <div class="left-box">
+                        <p>웨일 브라우저</p>
+                        <br />
+                        <a href="http://whale.naver.com/">이용안내</a>
+                    </div>
+                    <br />
+                    <a class="right-box" href="http://whale.naver.com/"><img style="margin-left: 20px" width="50px"
+                            height="50px" src="source/whale broswer.png" alt="" /></a>
+                </div>
+
+                <div class="broswer_box">
+                    <div class="left-box">
+                        <p>기업 사이트</p>
+                        <br />
+                        <a href="http://whale.naver.com/">바로가기</a>
+                    </div>
+
+                    <a class="right-box" href="http://whale.naver.com/"><img style="margin-top: 20px" width="50px"
+                            height="50px" src="source/naver_coportation.png" alt="" /></a>
+                </div>
+>>>>>>> im
             </div>
             <br />
             <div class="widget_dictionary">
@@ -441,6 +790,7 @@
             </div>
           </div>
         </div>
+<<<<<<< HEAD
       </div>
     </div>
 
@@ -605,3 +955,29 @@
     </div>
   </body>
 </html>
+=======
+        <br />
+        <br /><br /><br /><br />
+        <br />
+        <hr style="margin-left: 100px; margin-right: 100px" />
+        <br />
+        <div style="text-align: center" class="footer_bottom">
+            <a href="https://www.navercorp.com/esg/projectFlower"> 회사소개 </a> |
+            <a href="https://business.naver.com/">인재 채용</a> |
+            <a href="https://bizschool.naver.com/">제휴 제안</a> |
+            <a href="https://www.navercorp.com/service/serviceAD">이용약관</a> |
+            <a href="https://sell.storefarm.naver.com/#/home/about"><b>개인정보처리방침</b></a> |
+            <a href="https://smartplace.naver.com/">청소년 보호정책</a> |
+            <a href="https://expert.naver.com/expert/introduction?tab=guide#join">네이버 정책</a>
+            <a href="https://expert.naver.com/expert/introduction?tab=guide#join">고객센터</a>
+            <a href="https://expert.naver.com/expert/introduction?tab=guide#join">ⓒ <b>NAVER Corp.</b></a>
+        </div>
+    </div>
+</body>
+<script>
+    document.querySelector('#reading_glass').addEventListener('click',()=>{
+        document.querySelector('#submit_btn').click();
+    });
+</script>
+</html>
+>>>>>>> im

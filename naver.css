@@ -45,14 +45,18 @@
   }
   #search_form #input_form {
     width: 100%;
+<<<<<<< HEAD
   }
   #search_form #input_form #input {
+=======
+}
+#search_form #input_form {
+>>>>>>> im
     border-width: 0px;
     outline: white;
     margin-top: 5px;
     height: 80%;
     width: 70%;
-    margin-left: 80px;
     font-size: 20px;
   }
   #search_form #naver_icon {
