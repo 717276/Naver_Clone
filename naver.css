@@ -245,7 +245,7 @@ a {
     text-align: center;
     padding: 5px 0;
 }
- /* 이전 달 날짜 스타일 */
+/* 이전 달 날짜 스타일 */
 .calendar .days .day.before-month {
     color: rgb(214, 101, 101);
 }
@@ -276,7 +276,7 @@ a {
 /* 메모 헤더 */
 .memo_title {
     padding: 10px;
-    background-color: #17B75E;
+    background-color: #17b75e;
     color: white;
     font-weight: bold;
 }
@@ -379,11 +379,24 @@ a {
     padding: 0;
 }
 .tag {
-    border: 2px solid black;
+    border: 2px solid rgb(235, 235, 235);
     box-sizing: border-box;
     border-radius: 15px;
     background-color: white;
     padding: 5px;
+}
+
+.tag:hover {
+    background-color: rgb(241, 241, 241);
+}
+.main_boottom_title:hover {
+    text-decoration: underline;
+}
+.subs_home:hover {
+    text-decoration: underline;
+}
+.article p:hover {
+    text-decoration: underline;
 }
 /*jy*/
 
