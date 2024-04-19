@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="naver_login.css">
+<body>
+    <header><h1 id="title" style="color:green; font-weight: bold;">NAVER</h1></header>
+    <div class="container">
+        <div class="content">
+            <ul class="login_menu">
+                <li><a href="#">ID로그인</a></li>
+                <li><a href="#">1회용 번호</a></li>
+                <li><a href="#">QR 코드</a></li>
+            </ul>            
+            <form class="login_form" action="#" method="get">
+                <input name="id" id="id" size="20" maxlength="20" placeholder="아이디" type="text" value=""><br>
+                <input name="password" id="password" size="20" maxlength="20" placeholder="비밀번호" type="password" value="">
+        
+                <input name="radio" id="radio" type="radio"><label for="radio">로그인 상태 유지</label>
+                <button id="submit_btn" type="submit"
+                    style="color:white; border-radius: 10px; background-color: green;">로그인</button>
+            </form>
+            <div class="find_info">
+                <ul>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
