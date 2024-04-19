@@ -1,11 +1,54 @@
 header{
-    margin:0 auto;
     display:flex;
     justify-content:center;
+    margin-top: 100px;
+}
+.box{
+    display:flex; 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:500px;
+    height: 400px;
+    border:1px solid lightgray;
+    flex-direction:column;
+    border-radius:20px;
 }
 .container{
     display:flex;
+    flex-direction: column;
     justify-content:center;
-    width:1363px;
-    height:529px;
+    align-items: center;
+}
+.content .login_form{
+    display:flex;
+    flex-direction: column;
+}
+.login_menu_wrap .login_menu,
+.find_info .find_menu{
+    display:flex;
+    flex-direction: row;
+    padding-right:20px;
+}
+.login_menu {
+    list-style-type:none;
+    text-align: center;
+}
+.find_menu {
+    list-style-type:none;
+    text-align: center;
+}
+li > a {
+    text-decoration: none;
+    padding-right:30px;
+}
+input {
+    border-color:lightgray;
+    font-size: 20px;
+    padding:0;
+    margin:0;
+}
+#id, #password {
+    height:50px;
 }
