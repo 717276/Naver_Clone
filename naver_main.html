@@ -43,26 +43,17 @@
                     </div>
                 </div>
 
-                <div id="search_form">
-                    <img
-                        id="naver_icon"
-                        src="https://github.com/717276/Naver_Front/raw/main/img/header/naver.png"
-                        alt=""
-                    />
-                    <div id="input_form">
-                        <input id="input" type="text" placeholder="검색어 입력" />
-                    </div>
-                    <img
-                        id="keyboard_img"
-                        src="https://github.com/717276/Naver_Front/raw/main/img/header/keyboard_icon.png"
-                        alt=""
-                    />
-                    <img
-                        id="reading_glass"
-                        src="https://github.com/717276/Naver_Front/raw/main/img/header/reading_glass.png"
-                        alt=""
-                    />
-                </div>
+                <form id="search_form" action="https://search.naver.com/search.naver" method="get">
+                    <img id="naver_icon" src="https://github.com/717276/Naver_Front/raw/main/img/header/naver.png" alt="" />
+                    <input id="input_form" name="query" type="text" placeholder="검색어 입력">
+                    
+                    <img id="keyboard_img" src="https://github.com/717276/Naver_Front/raw/main/img/header/keyboard_icon.png"
+                    alt="" />
+                    
+                    <img id="reading_glass"
+                    src="https://github.com/717276/Naver_Front/raw/main/img/header/reading_glass.png" alt="" />
+                    <button id="submit_btn" type="submit" style="display:none;">검색</button>
+                </form>
             </div>
             <div class="icons">icons</div>
         </div>
@@ -886,4 +877,9 @@
             </div>
         </div>
     </body>
+    <script>
+        document.querySelector('#reading_glass').addEventListener('click',()=>{
+            document.querySelector('#submit_btn').click();
+        });
+    </script>
 </html>
