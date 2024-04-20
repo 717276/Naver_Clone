@@ -412,7 +412,7 @@ hr {
 .shopping {
     display: flex;
     flex-direction: column;
-    margin-top: 16px;
+    margin: 16px 0px;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 10px;
     width: 100%;
@@ -499,7 +499,7 @@ hr {
     height: 20%;
     display: flex;
     justify-content: space-around;
-    margin-top: 23px;
+    margin-top: 21px;
     padding: 10px 0px;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
@@ -519,22 +519,16 @@ hr {
 }
 .shopping > div.s-content > div.sc-left > div.sl-third {
     height: 50%;
-    margin-top: 19px;
-    margin-left: 10px;
+    margin-top: 21px;
 }
 .shopping > div.s-content > div.sc-left > div.sl-third > img {
-    width: 91%;
-    padding-left: 8px;
+    width: 100%;
 }
 div.s-content > div.sc-right {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin-right: 15px;
-}
-div.s-content > div.sc-right > div > img {
-    width: 100%;
-    padding-right: 10px;
 }
 div.s-footer {
     display: flex;
@@ -571,9 +565,9 @@ div.weather {
     flex-direction: column;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
-    margin-top: 19px;
-    margin-left: 8px;
-    width: 90%;
+    margin-top: 10px;
+    margin-left: 9px;
+    width: 92%;
     padding: 0px 5px;
 }
 div.weather > div.w-top {
@@ -611,7 +605,7 @@ div.stock {
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
     margin: 19px 0px 19px 8px;
-    width: 90%;
+    width: 92%;
     padding: 0px 5px;
 }
 div.stock > div.st-top {
@@ -636,10 +630,31 @@ div.adver {
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
     margin: 19px 0px 19px 8px;
-    width: 90%;
+    width: 92%;
     padding: 0px 5px;
 }
 div.adver > img {
     width: 100%;
+}
+.shopping > div.s-content > div.sc-left > div.sl-second > div > i{
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
+}
+div.sc-right > div > ul{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    margin: 1px 5px 0px 0px;
+    list-style: none;
+}
+div.sc-right > div > ul >li{
+    font-size: 14px;
+}
+div.sc-right > div.scr-bottom >ul.down >li{
+    padding-top: 11px;
+}
+div.sc-right > div > ul > li > img:hover{
+    transform: scale(1.05);
 }
 /* hb end */
