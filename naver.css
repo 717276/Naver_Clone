@@ -13,7 +13,7 @@ a {
 .search_box {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 130px;
 }
 .search_box #left_element,
 .search_box #right_element {
@@ -656,5 +656,37 @@ div.sc-right > div.scr-bottom >ul.down >li{
 }
 div.sc-right > div > ul > li > img:hover{
     transform: scale(1.05);
+}
+div.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto 50px auto;
+    width: 70%;
+}
+div.icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+div.icons > div > i{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 10px;
+    color: #02be53;
+}
+div.icons > div > span{
+    font-size: 12px;
+    margin-top: 5px;
+}
+div.icons > div > i.fa-bag-shopping{
+    color: #08b2eb
+}
+div.icons > div > i.fa-newspaper{
+    color: #5a91fe;
+}
+div.icons > div > i.fa-ellipsis{
+    color: #9dacbe;
 }
 /* hb end */
